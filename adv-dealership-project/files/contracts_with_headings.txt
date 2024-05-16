@@ -1,0 +1,50 @@
+
+
+Sales Line Item:
+------------------------------------------------
+SALE|20210928|Dana Wyatt|dana@texas.com|10112|1993|Ford|Explorer|SUV|Red|525123|995.00|49.75|100.00|295.00|1439.75|NO|0.00
+
+Type = Sale or Lease
+contract date: year month day
+name: name of buyer
+email: email of buyer
+car id: car vin
+year: year of car
+make: make of car
+model: model of car
+vehicle type: type of car
+color: color of car
+odometer: odometer reading of car
+price: price of car
+sales tax: sales tax (5% of vehicle price)
+recording fee: always $100
+processing fee: $295 for vehicles under 10,000 $495 for all others
+total cost: price + sales tax + recording fee + processing fee
+finance: yes/no
+monthly payment: total cost is what is financed - 4.25% for 48 months (if over $10,000) or 5.25% for 24 months (if under)
+
+calculate the monthly payment like the mortgage calculator in workshop 1 
+
+
+Lease Line Item
+-----------------------------------------------------------------
+LEASE|20210928|Zachary Westly|zach@texas.com|37846|2021|Chevrolet|Silverado|truck|Black|2750|31995.00|15997.50|2239.65|18237.15|538.43
+
+Type = Sale or Lease
+contract date: year month day
+name: name of buyer
+email: email of buyer
+car id: car vin
+year: year of car
+make: make of car
+model: model of car
+vehicle type: type of car
+color: color of car
+odometer: odometer reading of car
+price: price of car
+ending value: 1/2 the price of the car
+lease fee: 7% of the original price of the car
+total cost: (price - ending value) + lease fee
+monthly payment: total cost is what is financed - 4.0% for 36 months 
+
+calculate the monthly payment like the mortgage calculator in workshop 1 
