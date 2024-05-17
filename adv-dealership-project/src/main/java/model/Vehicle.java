@@ -33,15 +33,6 @@ public class Vehicle
 
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "id=" + id +
-                ", year=" + year +
-                ", make='" + make + '\'' +
-                ", model='" + model + '\'' +
-                ", type='" + type + '\'' +
-                ", color='" + color + '\'' +
-                ", mileage=" + mileage +
-                ", price=" + price +
-                '}';
+        return STR."Vehicle{id=\{id}, year=\{year}, make='\{make}\{'\''}, model='\{model}\{'\''}, type='\{type}\{'\''}, color='\{color}\{'\''}, mileage=\{mileage}, price=\{price}\{'}'}";
     }
 }
