@@ -64,8 +64,12 @@ public class Contract
         this.monthlyPayment = monthlyPayment;
     }
 
-    public abstract void calculateTotalPrice();
+    public void calculateTotalPrice() {
 
-    public abstract void calculateMonthlyPayment();
+    }
+
+    public void calculateMonthlyPayment() {
+
+    }
 }
 
