@@ -1,5 +1,7 @@
 package model;
 
+import static java.lang.StringTemplate.STR;
+
 public class Vehicle
 {
     private int id;
